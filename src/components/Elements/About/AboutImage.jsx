@@ -1,4 +1,4 @@
-import imageAbout from "../../../assets/images/about-me.svg";
+import imageAbout from "../../assets/images/about-me.svg";
 const AboutImage = () => {
   return (
     <div className="px-5 outline-dashed outline-15 outline-textNav rounded-xl">
