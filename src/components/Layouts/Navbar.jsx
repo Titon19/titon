@@ -31,7 +31,7 @@ const Navbar = () => {
     setIsOpen(!isOpen);
   };
   return (
-    <nav className="flex justify-between items-center p-2 bg-darkNav text-slate-100 font-bold absolute top-0 w-full sm:p-5">
+    <nav className=" flex justify-between items-center p-2 bg-darkNav text-slate-100 font-bold fixed sm:top-0 z-10 w-full sm:p-5">
       <a href="#" className="px-3 py-2 text-2xl">
         ti<span className="text-textNav">ton.</span>
       </a>
