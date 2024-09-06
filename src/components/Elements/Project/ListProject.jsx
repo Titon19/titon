@@ -1,22 +1,26 @@
 import { FaGithub } from "react-icons/fa";
+import Siarin from "../../../assets/images/image-siarin.png";
+import Sipus from "../../../assets/images/image-perpus.png";
+import Ecommerce from "../../../assets/images/image-e-commerce.png";
 
 const ListContent = [
   {
-    Image: "src/assets/images/image-siarin.png",
+    Image: Siarin,
     Title: "Sistem Informasi Agenda Rapat Internal Web.",
     Link: "https://github.com/Titon19/SIARIN",
   },
   {
-    Image: "src/assets/images/image-perpus.png",
+    Image: Sipus,
     Title: "Sistem Informasi Perpustakaan Web Dengan Notifikasi Whatsapp.",
     Link: "https://github.com/Titon19/SIPUS17",
   },
   {
-    Image: "src/assets/images/image-e-commerce.png",
+    Image: Ecommerce,
     Title: "Sistem E-Commerce Web.",
     Link: "https://github.com/Titon19/E-Commerce",
   },
 ];
+
 const ListProject = () => {
   return (
     <div className="flex flex-col gap-5">
@@ -27,8 +31,8 @@ const ListProject = () => {
         >
           <div className="flex gap-8 justify-between items-center flex-col xl:flex-row">
             <img
-              className="w-32 h-16  xl:w-48 xl:h-24 rounded-lg"
-              src={item.Image}
+              className="w-32 h-16 xl:w-48 xl:h-24 rounded-lg"
+              src={item.Image} // Menggunakan path gambar secara langsung
               alt="ImageProject"
             />
             <h1 className="text-sm xl:text-lg font-bold text-center xl:text-left">
@@ -37,8 +41,9 @@ const ListProject = () => {
           </div>
           <a
             href={item.Link}
-            className="flex gap-2 justify-between items-center bg-textNav hover:bg-hoverPurple px-3 py-2  rounded font-bold"
+            className="flex gap-2 justify-between items-center bg-textNav hover:bg-hoverPurple px-3 py-2 rounded font-bold"
             target="_blank"
+            rel="noopener noreferrer" // Menambahkan rel untuk keamanan
           >
             <FaGithub className="w-6 h-6 xl:w-8 xl:h-8" />
             <p className="text-sm md:text-md lg:text-lg xl:text-lg">
