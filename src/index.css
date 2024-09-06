@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+#contact {
+  background: rgb(19, 19, 19);
+  background: linear-gradient(
+    50deg,
+    rgba(19, 19, 19, 1) 0%,
+    rgba(34, 30, 54, 1) 33%,
+    rgba(19, 19, 19, 1) 100%
+  );
+  background-size: cover;
+}
