@@ -1,5 +1,5 @@
 import heroImage from "../../../assets/images/heroImage.png";
-const ImageHero = () => {
+const imageHero = () => {
   return (
     <div className="image w-52 h-52 sm:w-80 sm:h-80 md:w-92 md:h-92 lg:w-96 lg:h-96">
       <img
@@ -11,4 +11,4 @@ const ImageHero = () => {
   );
 };
 
-export default ImageHero;
+export default imageHero;
