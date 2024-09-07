@@ -1,6 +1,11 @@
 import AboutImage from "../Elements/About/AboutImage";
 import DescriptionAbout from "../Elements/About/DescriptionAbout";
 const About = () => {
+  const listDescriptionAbout = [
+    `Saya adalah seorang Fresh Greduate dari Universitas Serang Raya. Jurusan Sistem Informasi.`,
+    `Saya fokus dalam pengembangan website baik Front-End maupun Back-End (Bisa juga Fullstack-Dev) dan telah mengerjakan beberapa project yang saya buat.`,
+    `Saya menguasai beberapa bahasa pemrograman yang ada pada website. seperti HTML, CSS, JavaScript Dasar, React.js Dasar, PHP, Framework Laravel Dasar dan tentunya MySQL. Saya juga menguasai aplikasi desain digital seperti CorelDraw dan Photoshop.`,
+  ];
   return (
     <section
       id="about"
@@ -15,7 +20,7 @@ const About = () => {
         </h1>
       </div>
       <div className="flex justify-center items-center gap-10 md:gap-20 flex-col-reverse lg:flex-row">
-        <DescriptionAbout />
+        <DescriptionAbout listDescriptions={listDescriptionAbout} />
         <AboutImage />
       </div>
     </section>
