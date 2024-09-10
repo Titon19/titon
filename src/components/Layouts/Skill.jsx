@@ -7,7 +7,13 @@ import {
   FaPhp,
   FaLaravel,
 } from "react-icons/fa";
-import { SiMysql, SiAdobephotoshop, SiCoreldraw } from "react-icons/si";
+import {
+  SiMysql,
+  SiAdobephotoshop,
+  SiCoreldraw,
+  SiBootstrap,
+  SiTailwindcss,
+} from "react-icons/si";
 const Skills = [
   {
     Title: "HTML",
@@ -42,6 +48,16 @@ const Skills = [
   {
     Title: "MySQL",
     Image: <SiMysql className="size-6 sm:size-7 md:size-12" />,
+    Level: "Middle",
+  },
+  {
+    Title: "Bootstrap",
+    Image: <SiBootstrap className="size-6 sm:size-7 md:size-12" />,
+    Level: "Middle",
+  },
+  {
+    Title: "Tailwindcss",
+    Image: <SiTailwindcss className="size-6 sm:size-7 md:size-12" />,
     Level: "Middle",
   },
   {
